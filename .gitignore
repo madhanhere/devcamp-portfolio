@@ -12,10 +12,8 @@
 /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+log/*
+tmp/*
 
 # Ignore uploaded files in development
 /storage/*
@@ -29,3 +27,5 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+.history/
